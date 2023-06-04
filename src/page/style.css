@@ -1,0 +1,44 @@
+.tab{
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+table {
+  border-collapse: collapse;
+}
+
+
+th, td {
+  padding: 8px;
+  font-size: 14px;
+  text-align: left;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #fffac6;
+}
+@media (max-width:920px){
+th, td {
+  padding: 7px;
+  font-size: 13px;
+
+}
+}
+@media (max-width:450px){
+th, td {
+  padding: 5px;
+  font-size: 12px;
+
+}
+}
+@media (max-width:370px){
+th, td {
+  padding: 4px;
+  font-size: 11px;
+
+}
+
+}
